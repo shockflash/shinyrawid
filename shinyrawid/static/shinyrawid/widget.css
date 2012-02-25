@@ -1,0 +1,47 @@
+.shinyrawid_list {
+    margin-left: 106px;
+}
+
+
+.shinyrawid_list .row {
+    padding: 6px;
+    border-bottom: 1px solid #cbcbcb;
+    width: 500px;
+}
+
+.shinyrawid_list .row.last {
+    border-bottom: 0px;
+}
+
+.shinyrawid_list .row .left {
+    float: left;
+    width: 140px;
+}
+
+.shinyrawid_list .row .right {
+    float: left;
+    width: 330px;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #cbcbcb;
+}
+
+.shinyrawid_list .row .down,
+.shinyrawid_list .row .remove {
+    padding-right: 20px;
+    float: right
+}
+
+.shinyrawid_list .row .up,
+.shinyrawid_list .row .down,
+.shinyrawid_list .row .remove {
+    cursor: pointer;
+    color: #5b80b2;
+}
+
+.shinyrawid_list .row .up:hover,
+.shinyrawid_list .row .down:hover,
+.shinyrawid_list .row .remove:hover{
+    cursor: pointer;
+    color: #036;
+}

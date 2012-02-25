@@ -1,0 +1,14 @@
+ShinyRawID adds a list to the django Raw-ID fields, which shows the elements in
+the rawid field.
+
+Works, at the moment, only for ManyToMany field.
+
+It is buggy. Really.
+
+Installation
+------------
+
+Take a look at the urls.py and admin.py of the testappshinyrawid.
+
+You NEED to use "__shinyrawid" as the url-base for the urls.py include. The url
+part is hardcoded in the javascript file. 
